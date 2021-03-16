@@ -1,0 +1,151 @@
+html body {
+    background: linear-gradient(to right, #fcb045, #e97979, #9e66cd);
+    font-size: 1.1rem;
+}
+form {
+    width: 500px;
+    margin: auto;
+}
+.green {
+    color: green;
+}
+.list-row {
+    border: 1px solid white;
+    border-top: none;
+    min-height:39px;
+    color: #fde3e3;
+}
+.list-row .pill-box {
+    padding: 0;
+}
+.title-box {
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: #fff;
+    padding: 10px 0;
+}
+.list {
+    padding-left: 0;
+    list-style: none;
+}
+.fa-check{
+    font-size: 20px;
+}
+.logo {
+    width: 6%;
+    height: 30px;
+    align-self: center;
+    font-size: 20px;
+}
+.logoCheck {
+    align-self:center;
+}
+.check {
+    color:green;
+}
+.exit {
+    float: right;
+}
+.textDec{
+    text-decoration: line-through;
+    color: lightgray;
+}
+.fa-times-circle {
+    color: red;
+    font-size: 20px;
+}
+.warning {
+    color:red;
+}
+.pill {
+    line-height: 24px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 2px 5px;
+    color: white;
+    text-align: center;
+}
+.progression {
+    display: inline-block;
+    height: 15px;
+    border-radius: 10px;
+    width: 68%;
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+}
+.progression100 {
+    display: inline-block;
+    height: 15px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: green;
+    position: absolute;
+}
+.progression75 {
+    display: inline-block;
+    height: 15px;
+    width: 75%;
+    border-radius: 10px;
+    background-color: green;
+    position: absolute;
+}
+.progression50 {
+    display: inline-block;
+    height: 15px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: green;
+    position: absolute;
+}
+.progression25 {
+    display: inline-block;
+    height: 15px;
+    width: 25%;
+    border-radius: 10px;
+    background-color: green;
+    position: absolute;
+}
+.progression0 {
+    display: inline-block;
+    height: 15px;
+    width: 0;
+    border-radius: 10px;
+    background-color: green;
+    position: absolute;
+}
+.high{
+    background-color: rgb(180, 3, 3);
+
+}
+.low {
+    background-color: green;
+}
+.normal {
+    background-color: rgb(83, 184, 218);
+}
+ul li p {
+    margin-bottom: 0;
+    align-self: center;
+}
+.item1{
+    width: 25%;
+    display:flex;
+}
+.item2{
+    width: 7%;
+}
+.item3{
+    width: 12%;
+}
+.item4{
+    width: 10%;
+}
+.item5{
+    width: 22%;
+    position: relative;
+}
+.item6{
+    width: 20%;
+}
